@@ -1,301 +1,300 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-appearance: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-appearance: none;
 }
 
 body {
-    font-family: 'Chivo Light', sans-serif;
-    font-size: 18px;
-    color: #C2CBE5;
-    background-color: #121725;
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden !important;
-    position: relative;
+	font-family: 'Chivo Light', sans-serif;
+	font-size: 18px;
+	color: #c2cbe5;
+	background-color: #121725;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden !important;
+	position: relative;
 }
 
 h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    font-weight: lighter;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: lighter;
 }
 
 /* background image */
 .bgImg {
-    position: absolute;
-    right: 0px;
-    top: 640px;
+	position: absolute;
+	right: 0px;
+	top: 640px;
 }
 
 /* Logo */
 .logo {
-    background: url(../desktop/logo.svg) no-repeat;
-    background-size: 100%;
-    width: 135px;
-    height: 56px;
-    position: absolute;
-    left: 150px;
-    top: 4.5%;
+	background: url(../desktop/logo.svg) no-repeat;
+	background-size: 100%;
+	width: 135px;
+	height: 56px;
+	position: absolute;
+	left: 150px;
+	top: 4.5%;
 }
 
 /* Main container */
 .content {
-    background-color: #121725;
-    height: 480px;
-    width: 820px;
-    position: absolute;
-    padding: 20px 0 20px 0;
-    z-index: 1;
-    left: 150px;
-    top: 220px;
+	background-color: #121725;
+	height: 480px;
+	width: 820px;
+	position: absolute;
+	padding: 20px 0 20px 0;
+	z-index: 1;
+	left: 150px;
+	top: 220px;
 }
 
-.content>h1 {
-    margin-top: 50px;
-    margin-bottom: 30px;
+.content > h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
-.content>p:first-of-type {
-    width: 60%;
-    margin-bottom: 30px;
-    line-height: 1.5rem;
+.content > p:first-of-type {
+	width: 60%;
+	margin-bottom: 30px;
+	line-height: 1.5rem;
 }
 
 /* Form */
 
 .emailForm {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #2C344B;
-    border-radius: 30px;
-    width: 427px;
-    height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #2c344b;
+	border-radius: 30px;
+	width: 427px;
+	height: 56px;
 }
 
 #email {
-    background-color: transparent;
-    border: none;
-    height: 100%;
-    width: 200px;
-    margin-left: 30px;
-    font-size: 15px;
-    font-weight: bolder;
-    color: #FFF !important;
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	width: 200px;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #fff !important;
 }
 
 #email:focus {
-    outline: none
+	outline: none;
 }
 
 .btn {
-    padding: 0.9rem 2rem;
-    border: none;
-    border-radius: 30px;
-    background-color: #54E6AF;
-    color: #121725;
-    font-weight: bold;
-    margin-right: 3px;
+	padding: 0.9rem 2rem;
+	border: none;
+	border-radius: 30px;
+	background-color: #54e6af;
+	color: #121725;
+	font-weight: bold;
+	margin-right: 3px;
 }
 
 .btn:hover {
-    filter: brightness(1.25);
+	filter: brightness(1.25);
 }
 
 #warningMess {
-    margin-top: 10px;
-    margin-left: 24px;
-    color: red;
-    font-size: 15px;
+	margin-top: 10px;
+	margin-left: 24px;
+	color: red;
+	font-size: 15px;
 }
 
 /* Image (apple/spotify/google/pocket) */
 .podcastImg {
-    margin-top: 50px;
-    margin-right: 50px;
-    opacity: 0.5;
+	margin-top: 50px;
+	margin-right: 50px;
+	opacity: 0.5;
 }
 
 /* Host image */
 .hostImage {
-    background: url(../desktop/image-host.jpg) no-repeat;
-    background-size: contain;
-    width: 750px;
-    height: 550px;
-    position: absolute;
-    right: 0;
-    top: 150px;
-    z-index: -999;
+	background: url(../desktop/image-host.jpg) no-repeat;
+	background-size: contain;
+	width: 750px;
+	height: 550px;
+	position: absolute;
+	right: 0;
+	top: 150px;
+	z-index: -999;
 }
 
 /* Small laptop */
 @media only screen and (max-width: 1024px) {
-    body {
-        font-size: 12px;
-    }
+	body {
+		font-size: 12px;
+	}
 
-    h1 {
-        font-size: 30px;
-    }
+	h1 {
+		font-size: 30px;
+	}
 
-    .bgImg {
-        width: 200px;
-        height: 94px;
-        top: 650px
-    }
+	.bgImg {
+		width: 200px;
+		height: 94px;
+		top: 650px;
+	}
 
-    .hostImage {
-        background-size: 100%;
-        width: 700px;
-        height: 500px;
-        top: 200px
-    }
+	.hostImage {
+		background-size: 100%;
+		width: 700px;
+		height: 500px;
+		top: 200px;
+	}
 
-    .logo {
-        left: 120px;
-        top: 120px
-    }
+	.logo {
+		left: 120px;
+		top: 120px;
+	}
 
-    .content {
-        height: 390px;
-        width: 480px;
-        top: 320px;
-        left: 120px;
-    }
+	.content {
+		height: 390px;
+		width: 480px;
+		top: 320px;
+		left: 120px;
+	}
 
-    .podcastImg {
-        margin-top: 30px;
-        margin-right: 10px;
-    }
+	.podcastImg {
+		margin-top: 30px;
+		margin-right: 10px;
+	}
 
-    .emailForm {
-        width: 380px;
-        height: 50px;
-    }
+	.emailForm {
+		width: 380px;
+		height: 50px;
+	}
 }
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
-    body {
-        font-size: 15px;
-    }
+	body {
+		font-size: 15px;
+	}
 
-    h1 {
-        font-size: 48px;
-        line-height: 3.25rem;
-    }
+	h1 {
+		font-size: 48px;
+		line-height: 3.25rem;
+	}
 
-    .logo {
-        top: 50px;
-        left: 30px;
-    }
+	.logo {
+		top: 50px;
+		left: 30px;
+	}
 
-    .bgImg {
-        left: 30px;
-        top: 929px;
-    }
+	.bgImg {
+		left: 30px;
+		top: 929px;
+	}
 
-    .hostImage {
-        background-image: url(../tablet/image-host.jpg);
-        background-size: 100%;
-        width: 491px;
-        height: 767px;
-        top: 0;
-    }
+	.hostImage {
+		background-image: url(../tablet/image-host.jpg);
+		background-size: 100%;
+		width: 491px;
+		height: 767px;
+		top: 0;
+	}
 
-    .content {
-        height: 500px;
-        width: 650px;
-        top: 335px;
-        left: 30px;
-    }
+	.content {
+		height: 500px;
+		width: 650px;
+		top: 335px;
+		left: 30px;
+	}
 
-    .podcastImg {
-        margin-right: 30px;
-    }
+	.podcastImg {
+		margin-right: 30px;
+	}
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 425px) {
-    body {
-        font-size: 15px;
-    }
+	body {
+		font-size: 15px;
+	}
 
-    h1 {
-        font-size: 25px;
-    }
+	h1 {
+		font-size: 25px;
+	}
 
-    span::after {
-        content: "\a";
-        white-space: pre;
-    }
+	span::after {
+		content: '\a';
+		white-space: pre;
+	}
 
-    .logo {
-        left: 40%;
-        top: 60px
-    }
+	.logo {
+		left: 40%;
+		top: 60px;
+	}
 
-    .bgImg {
-        display: none;
-    }
+	.bgImg {
+		display: none;
+	}
 
-    .content {
-        background-color: transparent;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        left: 0;
-        top: 100px;
-    }
+	.content {
+		background-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		left: 0;
+		top: 100px;
+	}
 
-    .content>p {
-        width: 80% !important;
-    }
+	.content > p {
+		width: 80% !important;
+	}
 
-    .formWrapper {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+	.formWrapper {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 
-    .emailForm {
-        flex-direction: column;
-        width: 340px;
-    }
+	.emailForm {
+		flex-direction: column;
+		width: 340px;
+	}
 
-    #email {
-        margin: 15px auto 40px 25px;
-        width: 300px;
-    }
+	#email {
+		margin: 15px auto 40px 25px;
+		width: 300px;
+	}
 
-    .btn {
-        padding: 1rem 7.25rem !important;
-        margin: 0;
-    }
+	.btn {
+		padding: 1rem 7.25rem !important;
+		margin: 0;
+	}
 
-    #warningMess {
-        margin: auto auto 20px;
-    }
+	#warningMess {
+		margin: auto auto 20px;
+	}
 
-    .podcastImg {
-        margin-right: 10px;
-        margin-top: 0;
-        margin-bottom: 30px;
-        width: 70px;
-    }
+	.podcastImg {
+		margin-right: 10px;
+		margin-top: 0;
+		margin-bottom: 30px;
+		width: 70px;
+	}
 
-    .hostImage {
-        background-image: url(../mobile/image-host.jpg);
-        width: 100%;
-        height: 100%;
-        opacity: 0.3;
-    }
-
+	.hostImage {
+		background-image: url(../mobile/image-host.jpg);
+		width: 100%;
+		height: 100%;
+		opacity: 0.3;
+	}
 }

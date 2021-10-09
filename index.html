@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="stylesheet" href="./assets/css/style.css">
+		<title>Frontend Mentor | Pod request access landing page</title>
+	</head>
 
-    <title>Frontend Mentor | Pod request access landing page</title>
-  </head>
+	<body>
+		<img class="bgImg" src="./assets/desktop/bg-pattern-dots.svg" alt="" />
+		<div class="logo"></div>
+		<div class="content">
+			<h1>
+				<span style="color: #54e6af">Publish your podcasts</span> everywhere.
+			</h1>
 
-  <body>
+			<p>
+				Upload your audio to Pod with a single click. We’ll then distribute your
+				podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
+				more!
+			</p>
 
-    <img class="bgImg" src="./assets/desktop/bg-pattern-dots.svg" alt="">
-    <div class="logo"></div>
-    <div class="content">
-      <h1><span style="color: #54E6AF">Publish your podcasts</span> everywhere.</h1>
-
-      <p>Upload your audio to Pod with a single click.
-        We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
-
-      <div class="formWrapper">
-        <form class="emailForm" action="" method="post" autocomplete="off">
-          <input type="email" name="email" id="email" placeholder="Email Address">
-          <input type="button" class="btn" value="Request Access" onclick="validateEmail()">
-        </form>
-        <p id="warningMess"></p>
-        <div>
-          <img class="podcastImg" src="./assets/desktop/spotify.svg" alt="">
-          <img class="podcastImg" src="./assets/desktop/apple-podcast.svg" alt="">
-          <img class="podcastImg" src="./assets/desktop/google-podcasts.svg" alt="">
-          <img class="podcastImg" src="./assets/desktop/pocket-casts.svg" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="hostImage"></div>
-    <script src="./index.js"></script>
-  </body>
-
+			<div class="formWrapper">
+				<form class="emailForm" action="" method="post" autocomplete="off">
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Email Address"
+					/>
+					<input
+						type="button"
+						class="btn"
+						value="Request Access"
+						onclick="validateEmail()"
+					/>
+				</form>
+				<p id="warningMess"></p>
+				<div>
+					<img class="podcastImg" src="./assets/desktop/spotify.svg" alt="" />
+					<img
+						class="podcastImg"
+						src="./assets/desktop/apple-podcast.svg"
+						alt=""
+					/>
+					<img
+						class="podcastImg"
+						src="./assets/desktop/google-podcasts.svg"
+						alt=""
+					/>
+					<img
+						class="podcastImg"
+						src="./assets/desktop/pocket-casts.svg"
+						alt=""
+					/>
+				</div>
+			</div>
+		</div>
+		<div class="hostImage"></div>
+		<script src="./index.js"></script>
+	</body>
 </html>
