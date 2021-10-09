@@ -279,6 +279,10 @@ h1 {
         margin: 0;
     }
 
+    #warningMess {
+        margin: auto auto 20px;
+    }
+
     .podcastImg {
         margin-right: 10px;
         margin-top: 0;

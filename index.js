@@ -2,7 +2,9 @@ function validateEmail() {
     const mail = document.getElementById("email").value
     const pattern = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/;
 
-    if (!mail.match(pattern)) {
+    if (mail.length == 0) {
+        document.getElementById("warningMess").innerHTML = "Oops! Please add your email"
+    } else if (!mail.match(pattern)) {
         document.getElementById("warningMess").innerHTML = "Oops! Please check your email"
     } else {
         document.getElementById("warningMess").innerHTML = "Thank you for subscribing!"
