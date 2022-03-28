@@ -155,9 +155,9 @@ body {
 .podcast__partner {
 	width: 100%;
 	display: flex;
+	align-items: center;
 	gap: 2.25rem;
 	margin-top: 2rem;
-	flex-wrap: wrap;
 }
 
 .podcast__partner > img {
@@ -267,7 +267,7 @@ body {
 		margin-top: 0;
 		margin-bottom: 2rem;
 		justify-content: center;
-		align-items: center;
+		flex-wrap: wrap;
 	}
 
 	.podcast__partner > * {
