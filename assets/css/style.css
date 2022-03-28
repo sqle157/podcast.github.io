@@ -23,7 +23,6 @@ p {
 	font-weight: 400;
 	color: #c2cbe5;
 	max-width: 43ch;
-	opacity: 0.6;
 }
 
 main {
@@ -148,7 +147,6 @@ body {
 	color: #fb3e3e;
 	font-size: 0.75rem;
 	font-weight: 700;
-	opacity: 1;
 }
 
 /* Image (apple/spotify/google/pocket) */
